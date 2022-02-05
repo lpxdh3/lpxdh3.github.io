@@ -6,7 +6,7 @@
   <link href="http://lpxdh3.github.io/atom.xml" rel="self"/>
   
   <link href="http://lpxdh3.github.io/"/>
-  <updated>2021-09-16T09:37:07.717Z</updated>
+  <updated>2022-02-05T14:46:08.767Z</updated>
   <id>http://lpxdh3.github.io/</id>
   
   <author>
@@ -15,6 +15,21 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>第一次</title>
+    <link href="http://lpxdh3.github.io/2022/02/05/%E7%AC%AC%E4%B8%80%E6%AC%A1/"/>
+    <id>http://lpxdh3.github.io/2022/02/05/%E7%AC%AC%E4%B8%80%E6%AC%A1/</id>
+    <published>2022-02-05T14:32:02.000Z</published>
+    <updated>2022-02-05T14:46:08.767Z</updated>
+    
+    
+    
+    
+    
+    <category term="学" scheme="http://lpxdh3.github.io/tags/%E5%AD%A6/"/>
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
