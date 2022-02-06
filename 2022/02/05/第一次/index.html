@@ -46,8 +46,8 @@
     mashiro_option.email_name = "";
     mashiro_option.cookie_version_control = "";
     mashiro_option.qzone_autocomplete = false;
-    mashiro_option.site_name = "帝";
-    mashiro_option.author_name = "帝";
+    mashiro_option.site_name = "yassuo1234";
+    mashiro_option.author_name = "yassuo1234";
     mashiro_option.site_url = "/img/custom/cungudafa.jpg";
     mashiro_option.v_appId = "Oj8JKPrALyL5s1ySbfqGz79x-MdYXbMMI";//
     mashiro_option.v_appKey = "XMPMJU9ThCQzAqPFgKIJDLzl";//
@@ -70,9 +70,9 @@
       alert('朋友，IE浏览器未适配哦~');
     }
   </script>
-<meta name="generator" content="Hexo 5.4.0">
+<meta name="generator" content="Hexo 5.4.0"><link rel="alternate" href="/lpxdh3.github.io/atom.xml" title="yassuo1234" type="application/atom+xml">
+
 <style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
-<link rel="alternate" href="/lpxdh3.github.io/atom.xml" title="yassuo1234" type="application/atom+xml">
 <link rel="stylesheet" href="/lpxdh3.github.io/css/prism-tomorrow.css" type="text/css"></head> 
 
 <body class="page-template page-template-user page-template-page-analytics page-template-userpage-analytics-php page page-id-1297 chinese-font serif isWebKit">
@@ -286,6 +286,13 @@
                         <a href="/lpxdh3.github.io/categories/beiwang/">
                           <i class="fa " aria-hidden="true"></i>
                           备忘录
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a href="/lpxdh3.github.io/tags">
+                          <i class="fa fa-tags" aria-hidden="true"></i>
+                          标签
                         </a>
                       </li>
                     
@@ -566,7 +573,37 @@
         <!--套嵌目录使用（主要为了支援评论）-->
         
         <div class="entry-content">
-          
+          <blockquote>
+<p>本系列题来自<a target="_blank" rel="noopener" href="http://acm.zzuli.edu.cn/">zzulioj</a>，如有不对可在主页联系本人</p>
+</blockquote>
+<h1 id="1010-求圆的周长和面积"><a href="#1010-求圆的周长和面积" class="headerlink" title="1010: 求圆的周长和面积"></a><a target="_blank" rel="noopener" href="http://acm.zzuli.edu.cn/problem.php?id=1010">1010: 求圆的周长和面积</a></h1><ul>
+<li><p>题目描述：输入圆的半径，求圆的周长和面积。 要求定义圆周率为如下宏常量</p>
+<pre><code>      #define PI 3.14159
+</code></pre>
+</li>
+<li><p>输入：输入半径r的值，为一实数。</p>
+</li>
+<li><p>输出：输出一行，包括周长和面积。数据之间用一个空格隔开，数据保留小数后面两位。</p>
+</li>
+<li><p>样例输入：</p>
+<pre><code>      3
+</code></pre>
+</li>
+<li><p>样例输出：<code>18.85 28.27</code></p>
+<pre><code>#include &lt;stdio.h&gt; 
+#define PI 3.14159
+int main(void) {
+    double  r,  l, s;               //定义半径r,周长l，面积s
+       scanf("%lf", &amp;r);               //输入半径r
+    l = PI * 2 * r;                 //计算周长和面积
+    s = PI * r * r;
+    printf("%.2lf %.2lf", l, s);    //输出
+    return 0;
+}
+</code></pre>
+</li>
+</ul>
+
         </div>
 
         <!-- .entry-content -->
@@ -615,7 +652,7 @@ wpac_init.push({widget: 'Rating', id: 23889});
           <div class="post-tags" style="color: #a39391">
             <span><i class="fa fa-tags"></i>
               
-              <a href="/lpxdh3.github.io/tags/%E5%AD%A6/" style="color: #716e77;">学<em>·</em></a>
+              <a href="/lpxdh3.github.io/tags/C%E8%AF%AD%E8%A8%80/" style="color: #716e77;">C语言<em>·</em></a>
               
             </span>
             <span>
@@ -633,7 +670,7 @@ wpac_init.push({widget: 'Rating', id: 23889});
           <div class="tag-cloud-title">
           </div>
           <div class="tag-cloud-tags">
-            <a href="/lpxdh3.github.io/tags/%E5%AD%A6/" style="font-size: 10px; color: #f06966">学</a>
+            <a href="/lpxdh3.github.io/tags/C%E8%AF%AD%E8%A8%80/" style="font-size: 10px; color: #f06966">C语言</a>
           </div>
         </div> -->
       </article>
@@ -1008,7 +1045,7 @@ gitalk.render('gitalk-container')
   <div class="m-avatar">
     <img src="https://cdn.jsdelivr.net/gh/lpxdh3/cdn-1@1.4/img/custom/cungudafa.jpg">
   </div>
-  <p style="text-align: center; color: #333; font-weight: 900; font-family: 'Ubuntu', sans-serif; letter-spacing: 1.5px">帝</p>
+  <p style="text-align: center; color: #333; font-weight: 900; font-family: 'Ubuntu', sans-serif; letter-spacing: 1.5px">yassuo1234</p>
   <p style="text-align: center; word-spacing: 20px;">
     
       
@@ -1085,6 +1122,13 @@ gitalk.render('gitalk-container')
                 <a href="/lpxdh3.github.io/categories/beiwang/">
                   <i class="fa " aria-hidden="true"></i>
                   备忘录
+                </a>
+              </li>
+            
+              <li>
+                <a href="/lpxdh3.github.io/tags">
+                  <i class="fa fa-tags" aria-hidden="true"></i>
+                  标签
                 </a>
               </li>
             
